@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VNqoftLWS5h5N0Rl4kWCBprR9hNMuUXOr0CRQuLgjpA=",
+  "Source": "LightServeWebAPI",
+  "BasePath": "_content/LightServeWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
