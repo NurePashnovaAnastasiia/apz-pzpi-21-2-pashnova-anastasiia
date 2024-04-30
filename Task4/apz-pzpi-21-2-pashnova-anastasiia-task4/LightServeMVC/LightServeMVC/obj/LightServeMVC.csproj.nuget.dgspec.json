@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nastya\\source\\repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj": {}
+    "C:\\Users\\Nastya\\Source\\Repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nastya\\source\\repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj": {
+    "C:\\Users\\Nastya\\Source\\Repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nastya\\source\\repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Nastya\\Source\\Repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj",
         "projectName": "LightServeMVC",
-        "projectPath": "C:\\Users\\Nastya\\source\\repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj",
+        "projectPath": "C:\\Users\\Nastya\\Source\\Repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\LightServeMVC.csproj",
         "packagesPath": "C:\\Users\\Nastya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nastya\\source\\repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\obj\\",
+        "outputPath": "C:\\Users\\Nastya\\Source\\Repos\\NurePashnovaAnastasiia\\apz-pzpi-21-2-pashnova-anastasiia\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
