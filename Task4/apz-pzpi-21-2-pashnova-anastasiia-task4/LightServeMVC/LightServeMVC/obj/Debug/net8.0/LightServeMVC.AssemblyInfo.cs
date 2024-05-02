@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LightServeMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84421299158289b9e2b1aad83948785c77f8b8f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("LightServeMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LightServeMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,11 +38,11 @@ localizationOptions.SupportedCultures = suportedCultures;
 localizationOptions.SupportedUICultures = suportedCultures;
 localizationOptions.RequestCultureProviders.Insert(0, new QueryStringRequestCultureProvider());
 
-builder.Services.AddSingleton<Owner>();
+builder.Services.AddSingleton<User>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Owner/Register";
+        options.LoginPath = "/User/Register";
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
 
