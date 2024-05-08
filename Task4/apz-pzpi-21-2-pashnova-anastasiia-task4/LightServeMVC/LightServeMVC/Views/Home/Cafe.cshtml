@@ -1,0 +1,21 @@
+﻿@model List<Cafe>
+
+@{
+    ViewBag.Title = "Cafes";
+}
+
+<div class="container">
+    <h2>Cafes</h2>
+    <div class="row">
+        @foreach (var cafe in Model)
+        {
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@cafe.Name</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -17,6 +17,8 @@ namespace LightServeMVC.Models
 
         public bool IsAuthorized { get; set; } = false;
 
+        public Order? Order { get; set; }
+
         public Owner Owner { get; set; }
 
         public Customer Customer { get; set; }

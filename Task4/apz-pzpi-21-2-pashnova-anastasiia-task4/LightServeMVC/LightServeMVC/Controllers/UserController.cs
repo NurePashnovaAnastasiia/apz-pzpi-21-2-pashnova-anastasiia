@@ -6,12 +6,12 @@ using System.Net.Http.Headers;
 namespace LightServeMVC.Controllers
 {
 
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly string Baseurl = "https://localhost:7082";
         private User _user;
 
-        public UserController(User user)
+        public UserController(User user) : base(user)
         {
             _user = user;
         }

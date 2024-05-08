@@ -1,0 +1,25 @@
+﻿@model IEnumerable<LightServeMVC.Models.Table>
+
+<h1>Tables</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Table Number</th>
+            <th>Size</th>
+            <th>Availability</th>
+            <th>Cafe Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var table in Model)
+        {
+            <tr>
+                <td>@table.Number</td>
+                <td>@table.Size</td>
+                <td>@(table.IsAvailable ? "Available" : "Not Available")</td>
+                <td>@table.Cafe.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

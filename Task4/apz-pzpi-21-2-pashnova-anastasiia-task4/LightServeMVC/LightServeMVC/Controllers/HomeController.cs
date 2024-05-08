@@ -4,78 +4,52 @@ using System.Diagnostics;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Localization;
+using LightServeMVC.Models.ViewModels;
 
 namespace LightServeMVC.Controllers
 {
     public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly string Baseurl = "https://localhost:7128";
-        private Customer _customer;
+        private readonly string Baseurl = "https://localhost:7082";
+        private User _user;
 
-        public HomeController(ILogger<HomeController> logger, Customer customer) : base(customer)
+        public HomeController(ILogger<HomeController> logger, User user) : base(user)
         {
-
-            _customer = customer;
+            _user = user;
             _logger = logger;
         }
 
-        //public async Task<ActionResult> Index()
-        //{
-        //    if (_customer.IsAuthorized)
-        //    {
-        //        List<Cafe> cafes = new List<Cafe>();
-        //        using (var client = new HttpClient())
-        //        {
-        //            client.BaseAddress = new Uri(Baseurl);
-        //            client.DefaultRequestHeaders.Clear();
+        public async Task<ActionResult> Index()
+        {
+            if (_user.IsAuthorized)
+            {
+                var cafes = await GetCafes();
 
-        //            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                if (_user.IsOwner)
+                {
+                    return View("Cafe", cafes);
+                }
+                else
+                {
+                    var orders = await GetOrders();
+                    var menus = await GetMenus();
 
-        //            string apiUrl = $"api/Cafe/getAllCafes?email={Uri.EscapeDataString(_customer.Email)}";
-        //            HttpResponseMessage response = await client.GetAsync(apiUrl);
+                    var customerViewModel = new CustomerView()
+                    {
+                        Cafes = cafes,
+                        Menus = menus,
+                        Orders = orders,
+                    }; ;
+                    return View("Menu", customerViewModel);
 
-        //            if (response.IsSuccessStatusCode)
-        //            {
-        //                var cafeResponse = response.Content.ReadAsStringAsync().Result;
-        //                cafes = JsonConvert.DeserializeObject<List<Cafe>>(cafeResponse);
-        //            }
-        //            return View(cafes);
-        //        }
-        //    }
-        //    else
-        //    {
-        //        return RedirectToAction("Login", "User");
-        //    }
-        //}
-        //else
-        //{
-        //    if (_user.Customer.IsAuthorized)
-        //    {
-        //        List<Menu> menus = new List<Menu>();
-        //        using (var client = new HttpClient())
-        //        {
-        //            client.BaseAddress = new Uri(Baseurl);
-        //            client.DefaultRequestHeaders.Clear();
-
-        //            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-        //            string apiUrl = $"api/api/Menu/getAllMenus";
-        //            HttpResponseMessage response = await client.GetAsync(apiUrl);
-
-        //            if (response.IsSuccessStatusCode)
-        //            {
-        //                var menuResponse = response.Content.ReadAsStringAsync().Result;
-        //                menus = JsonConvert.DeserializeObject<List<Menu>>(menuResponse);
-        //            }
-        //            return View(menus);
-        //        }
-        //    }
-        //    else
-        //    {
-        //        return RedirectToAction("Login", "User");
-        //    }
-        //}
+                }
+            }
+            else
+            {
+                return RedirectToAction("Login", "User");
+            }
+        }
 
         public IActionResult Privacy()
         {
@@ -88,6 +62,74 @@ namespace LightServeMVC.Controllers
                 new CookieOptions() { Expires = DateTimeOffset.UtcNow.AddYears(1) });
 
             return Redirect(Request.Headers["Referer"].ToString());
+        }
+
+        private async Task<List<Order>> GetOrders()
+        {
+            List<Order> orders = new List<Order>();
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                string apiUrl = $"api/Order/getAllOrders?email={Uri.EscapeDataString(_user.Email)}";
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var orderResponse = await response.Content.ReadAsStringAsync();
+                    orders = JsonConvert.DeserializeObject<List<Order>>(orderResponse);
+                }
+            }
+
+            return orders;
+        }
+
+        private async Task<List<Menu>> GetMenus()
+        {
+            List<Menu> menus = new List<Menu>();
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                string apiUrl = $"api/Menu/getAllMenus";
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var menuResponse = await response.Content.ReadAsStringAsync();
+                    menus = JsonConvert.DeserializeObject<List<Menu>>(menuResponse);
+                }
+            }
+
+            return menus;
+        }
+
+        
+
+        private async Task<List<Cafe>> GetCafes()
+        {
+            List<Cafe> cafes = new List<Cafe>();
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                string apiUrl = $"api/Cafe/getAllCafes?email=ap%40gmail.com";
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var cafeResponse = await response.Content.ReadAsStringAsync();
+                    cafes = JsonConvert.DeserializeObject<List<Cafe>>(cafeResponse);
+                }
+            }
+
+            return cafes;
         }
     }
 }

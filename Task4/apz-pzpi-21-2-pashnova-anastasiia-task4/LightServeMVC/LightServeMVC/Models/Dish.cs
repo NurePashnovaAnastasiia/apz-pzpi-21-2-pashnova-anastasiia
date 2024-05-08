@@ -6,14 +6,14 @@
 
         public string? Description { get; set; }
 
-        public double Price { get; set; }
+        public double? Price { get; set; }
 
-        public double Weight { get; set; }
+        public double? Weight { get; set; }
 
-        public Menu Menu { get; set; }
+        public Menu? Menu { get; set; }
 
-        public int MenuId { get; set; }
+        public int? MenuId { get; set; }
 
-        public ICollection<OrderDetails> OrderDetails { get; set; }
+        public ICollection<OrderDetails>? OrderDetails { get; set; }
     }
 }
