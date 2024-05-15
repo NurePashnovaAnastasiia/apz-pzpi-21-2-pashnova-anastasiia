@@ -8,7 +8,7 @@ namespace LightServeMVC.Controllers
 
     public class UserController : BaseController
     {
-        private readonly string Baseurl = "https://localhost:7082";
+        private readonly string Baseurl = "http://localhost:5139";
         private User _user;
 
         public UserController(User user) : base(user)

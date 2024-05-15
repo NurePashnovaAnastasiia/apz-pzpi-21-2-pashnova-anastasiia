@@ -9,75 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LightServeMVC
 build_property.RootNamespace = LightServeMVC
-build_property.ProjectDir = C:\Users\Nastya\Source\Repos\NurePashnovaAnastasiia\apz-pzpi-21-2-pashnova-anastasiia\Task4\apz-pzpi-21-2-pashnova-anastasiia-task4\LightServeMVC\LightServeMVC\
+build_property.ProjectDir = C:\Users\Nastya\source\repos\NurePashnovaAnastasiia\apz-pzpi-21-2-pashnova-anastasiia\Task4\apz-pzpi-21-2-pashnova-anastasiia-task4\LightServeMVC\LightServeMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Nastya\Source\Repos\NurePashnovaAnastasiia\apz-pzpi-21-2-pashnova-anastasiia\Task4\apz-pzpi-21-2-pashnova-anastasiia-task4\LightServeMVC\LightServeMVC
+build_property.MSBuildProjectDirectory = C:\Users\Nastya\source\repos\NurePashnovaAnastasiia\apz-pzpi-21-2-pashnova-anastasiia\Task4\apz-pzpi-21-2-pashnova-anastasiia-task4\LightServeMVC\LightServeMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/Details.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Cafe/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Cafe/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Cafe.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/GetDishAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxHZXREaXNoQW1vdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/GetPopularDishes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxHZXRQb3B1bGFyRGlzaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Dish/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Cafe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Index.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Menu.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Privacy.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Menu/Index.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Menu/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Menu/GetMenus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxHZXRNZW51cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Order/Details.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Menu/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Order/GetOrders.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Order/GetOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0T3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/Error.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Table/GetTables.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Table/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Table/GetTables.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcR2V0VGFibGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/User/Login.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/User/Register.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/_ViewImports.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Worker/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Worker/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Worker/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Worker/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/_ViewStart.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nastya/Source/Repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Nastya/source/repos/NurePashnovaAnastasiia/apz-pzpi-21-2-pashnova-anastasiia/Task4/apz-pzpi-21-2-pashnova-anastasiia-task4/LightServeMVC/LightServeMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jx1l7w6cdn

@@ -1,15 +1,12 @@
 using LightServeMVC.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.Extensions.Localization;
 using System.Globalization;
 using System.Reflection;
 using Microsoft.AspNetCore.Localization;
-using Microsoft.Extensions.Options;
+using Microsoft.CodeAnalysis;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 
@@ -59,6 +56,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseRequestLocalization(localizationOptions);
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

@@ -11,7 +11,7 @@ namespace LightServeMVC.Controllers
     [ApiController]
     public class OrderController : BaseController
     {
-        private readonly string Baseurl = "https://localhost:7082";
+        private readonly string Baseurl = "http://localhost:5139";
         private User _user;
 
         public OrderController(User user) : base(user)
@@ -40,7 +40,7 @@ namespace LightServeMVC.Controllers
                 lastOrder = new Order
                 {
                     CustomerEmail = customerEmail,
-                    CafeId = 1,
+                    CafeId = 4,
                 };
 
 
@@ -54,7 +54,7 @@ namespace LightServeMVC.Controllers
                     var uriBuilder = new UriBuilder(client.BaseAddress);
                     uriBuilder.Path = endpoint;
 
-                    var query = $"cafeId=1&email={Uri.EscapeDataString(customerEmail)}";
+                    var query = $"cafeId=4&email={Uri.EscapeDataString(customerEmail)}";
                     uriBuilder.Query = query;
 
                     HttpResponseMessage response = await client.PostAsJsonAsync(uriBuilder.Uri, lastOrder);
@@ -197,7 +197,7 @@ namespace LightServeMVC.Controllers
 
                     if (response.IsSuccessStatusCode)
                     {
-                        return RedirectToAction("GetOrders", "Order", new { _user.Email});
+                        return RedirectToAction("Index", "Home");
                     }
                     else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
                     {

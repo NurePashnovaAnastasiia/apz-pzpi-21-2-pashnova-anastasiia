@@ -1,4 +1,4 @@
-﻿namespace LightServeMVC.Models.ModelsDto
+﻿namespace LightServeMVC.Models.Dto
 {
     public class WorkerDto
     {

@@ -147,17 +147,26 @@
   <data name="NoAccount" xml:space="preserve">
     <value>Don't have an account</value>
   </data>
+  <data name="NoWorkers" xml:space="preserve">
+    <value>You don't have any workers yet</value>
+  </data>
   <data name="Password" xml:space="preserve">
     <value>Password</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Register</value>
   </data>
+  <data name="RegisterWorker" xml:space="preserve">
+    <value>Register Worker</value>
+  </data>
   <data name="SelectLanguage" xml:space="preserve">
     <value>Select Language</value>
   </data>
   <data name="Surname" xml:space="preserve">
     <value>Surname</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>Tables</value>
   </data>
   <data name="Ukranian" xml:space="preserve">
     <value>Ukranian</value>

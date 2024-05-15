@@ -5,8 +5,10 @@
     "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4",
     "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC",
     "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC",
-    "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Controllers"
+    "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Controllers",
+    "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Views",
+    "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Views\\Shared"
   ],
-  "SelectedNode": "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Controllers\\OrderController.cs",
+  "SelectedNode": "\\Task4\\apz-pzpi-21-2-pashnova-anastasiia-task4\\LightServeMVC\\LightServeMVC\\Controllers\\DishController.cs",
   "PreviewInSolutionExplorer": false
 }

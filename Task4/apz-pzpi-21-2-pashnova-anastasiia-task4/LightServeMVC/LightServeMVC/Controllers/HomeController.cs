@@ -11,7 +11,7 @@ namespace LightServeMVC.Controllers
     public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly string Baseurl = "https://localhost:7082";
+        private readonly string Baseurl = "http://localhost:5139";
         private User _user;
 
         public HomeController(ILogger<HomeController> logger, User user) : base(user)

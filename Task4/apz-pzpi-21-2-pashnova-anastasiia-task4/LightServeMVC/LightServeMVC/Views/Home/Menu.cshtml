@@ -57,9 +57,12 @@
 
                         </td>
                         <td>
-                            @using (Html.BeginForm("Delete", "Order", new { orderId = order.Id }, FormMethod.Post))
+                            @if(order.IsDone == false)
                             {
-                                <button type="submit" class="btn btn-danger">Delete</button>
+                                @using (Html.BeginForm("Delete", "Order", new { orderId = order.Id }, FormMethod.Post))
+                                {
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                }
                             }
                         </td>
                     </tr>
